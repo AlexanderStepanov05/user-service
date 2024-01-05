@@ -1,7 +1,6 @@
-package justebin.user.service;
-import justebin.user.model.User;
-import justebin.user.repository.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+package justebin.service;
+import justebin.repository.UserRepository;
+import justebin.model.User;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
