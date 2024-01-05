@@ -1,7 +1,7 @@
-package justebin.user.controller;
+package justebin.controller;
 
-import justebin.user.model.User;
-import justebin.user.service.UserService;
+import justebin.model.User;
+import justebin.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
